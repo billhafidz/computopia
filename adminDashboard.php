@@ -24,5 +24,6 @@ if (isset($_GET['logout'])) {
 ?>
 
 tes
+<a href="manageUserAcc.php">Manage User</a>
 <a href="adminDashboard.php?logout=1" id="logout-btn">
 <button type="button" class="btn btn-danger"> Logout</button>

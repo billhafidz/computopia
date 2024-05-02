@@ -59,3 +59,4 @@ if (isset($_POST['login_btn'])) {
 
 <input class="btn btn-light my-4 form-control" type="submit" name="login_btn" value="Login">
 </form>
+<a href="loginAdmin.php">Login Admin</a>

@@ -183,7 +183,7 @@ while ($row = mysqli_fetch_assoc($result)) {
   <td><?= $row['user_name'] ?></td>
   <td><?= $row['product_quantity'] ?></td>
   <!-- <td><img src="img/products/<?= $row['product_photo'] ?>" alt="" width="50"></td> -->
-  <td><?= $row['product_price'] ?></td>
+  <td><?= $row['product_quantity'] * $row['product_price'] ?></td>
   <td><?= $row['order_date'] ?></td>
 </tr>
 <?php

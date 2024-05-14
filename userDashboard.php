@@ -11,7 +11,7 @@ $user_photo = $_SESSION['user_photo'];
 
 
 if (!isset($_SESSION['logged_in'])) {
-  header('location: login.php');
+  header('location: index.php');
   exit;
 }
 
@@ -19,7 +19,7 @@ if (isset($_GET['logout'])) {
   if (isset($_SESSION['logged_in'])) {
     unset($_SESSION['logged_in']);
     unset($_SESSION['user_email']);
-    header('location: login.php');
+    header('location: index.php');
     exit;
   }
 }
